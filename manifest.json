@@ -1,0 +1,16 @@
+{
+  "name": "Super Fast Charging",
+  "short_name": "Charging",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#030712",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3103/3103446.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
