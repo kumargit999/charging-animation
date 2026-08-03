@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Fast Charging Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="charging-container">
+    <!-- Glowing Outer Rings -->
+    <div class="ring ring-outer"></div>
+    <div class="ring ring-inner"></div>
+
+    <!-- Central Charging Circle -->
+    <div class="core-circle">
+      <!-- Lightning Icon -->
+      <svg class="lightning-bolt" viewBox="0 0 24 24">
+        <path d="M11 15H6l7-14v8h5l-7 14v-8z"/>
+      </svg>
+      
+      <!-- Real Battery Percentage -->
+      <div class="percentage-box">
+        <span id="percentage">--</span><span class="percent-symbol">%</span>
+      </div>
+      
+      <div class="charging-text">SUPER FAST CHARGING</div>
+    </div>
+
+    <!-- Floating Energy Particles -->
+    <div class="particles">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
